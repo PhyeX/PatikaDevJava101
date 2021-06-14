@@ -24,12 +24,12 @@ public class Main {
             if ( a < c )
                 System.out.println("b < a < c");
             else
-                System.out.println("b > c > a ");
+                System.out.println("b < c < a ");
         }else{
             if( a < b )
-                System.out.println(" c > a > b");
+                System.out.println(" c < a < b");
             else
-                System.out.println("c > b > a");
+                System.out.println("c < b < a");
         }
 
     }
