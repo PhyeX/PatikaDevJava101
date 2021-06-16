@@ -40,6 +40,10 @@ public class Main {
                 case 6:
                     factorial();
                     break;
+                case 7:
+                    mod();
+                case 8:
+                    border();
                 case 0:
                     break;
                 default:
@@ -47,6 +51,26 @@ public class Main {
             }
         } while (select != 0);
     }
+    static void mod(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Modu alınacak rakamı giridiniz");
+        int digit = scan.nextInt();
+        System.out.println("Mod rakamını giriniz");
+        int mod = scan.nextInt();
+        System.out.println("Sonuç :"+digit%mod);
+    }
+
+    static void border(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Diktörtgen uzun kenarını giriniz");
+        int a = scan.nextInt();
+        System.out.println("Kısa kenarını giriniz");
+        int b = scan.nextInt();
+        System.out.println("Çevre : "+(a+b)*2);
+        System.out.println("Alan: "+a*b);
+    }
+
+
     static void plus() {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
