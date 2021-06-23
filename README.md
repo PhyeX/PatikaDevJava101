@@ -132,6 +132,26 @@ Not: Fonksiyonların erişimleri public + olucak resimde - kalmış.
 
 ![image](https://user-images.githubusercontent.com/45934056/123145612-b184fc00-d465-11eb-9b35-8df47b95bc21.png)
 
+# Ödev - Uçuş Yönetim Sistemi
+Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 
+Havayolu şirketleri uçuşları gerçekleştirir. Her havayolunun bir kimliği vardır.
+
+Havayolu şirketi, farklı tipteki uçaklara sahiptir.
+
+Uçaklar çalışır veya onarım durumunda olabilir.
+
+Her uçuşun benzersiz kimliği, kalkacağı ve ineceği havaalanı, kalkış ve iniş saatleri vardır.
+
+Her uçuşun bir pilotu ve yardımcı pilotu vardır ve uçağı kullanırlar.
+
+Havaalanlarının benzersiz kimlikleri ve isimleri vardır.
+
+Havayolu şirketlerinin pilotları vardır ve her pilotun bir deneyim seviyesi mevcuttur.
+
+Bir uçak tipi, belirli sayıda pilota ihtiyaç duyabilir.
+
+Bu sistemi tasvir eden Class (Sınıf) diyagramını çiziniz.
 
  
+![image](https://user-images.githubusercontent.com/45934056/123151179-e2682f80-d46b-11eb-9d6d-323ed391a92b.png)
