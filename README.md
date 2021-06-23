@@ -128,6 +128,8 @@ olacaktır.
 
 Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.
 
+Not: Fonksiyonların erişimleri public + olucak resimde - kalmış.
+
 ![image](https://user-images.githubusercontent.com/45934056/123145612-b184fc00-d465-11eb-9b35-8df47b95bc21.png)
 
 
